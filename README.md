@@ -33,4 +33,4 @@ Note: Further documentation is still in work.
 ## Source Code
 * **Source** folder - Contains the source code.  The Feed Manager uses the [NIPM API (Beta)](https://github.com/allenh-ni/nipm-api-labview/tree/master/Exports).
 * **Build Spec** folder - Contains the VIPM build spec (.vipb) used to create the .vip file.
-* **Export** folder - Contains versions of the VIPM package (.vip), which you can use to install this API.
+* **Export** folder - Contains versions of the VIPM package (.vip), which you can use to install this NIPM Feed Manager.
