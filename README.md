@@ -27,6 +27,7 @@ Note: Launching the NIPM Feed Manager launches a VI.  The VI resides in the \<la
 
 ## Documentation
 The source code (VI) includes documentation in comments.
+
 Note: Further documentation is still in work.
 
 ## Source Code
