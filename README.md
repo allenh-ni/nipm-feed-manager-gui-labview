@@ -19,7 +19,7 @@ Prerequisites:
 * [NIPM API (Beta)](https://github.com/allenh-ni/nipm-api-labview/tree/master/Exports)
 
 Installation and Usage Instructions
-1. Click on the **Exports** folder, and download the most recent .vip file (VIPM package).
+1. Click on the [Exports](https://github.com/allenh-ni/nipm-feed-manager-gui-labview/tree/master/Exports) folder, and download the most recent .vip file (VIPM package).
 2. Double-click the .vip file.  This will launch VI Package Manager to install the NIPM Feed Manager to LabVIEW 2014 or later.
 3. In LabVIEW, launch the NIPM Feed Manager GUI by selecting **Tools»NIPM Feed Manager»NIPM Feed Manager** from the LabVIEW toolbar.
 
