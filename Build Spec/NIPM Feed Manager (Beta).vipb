@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-01-06 02:47:58" Modified_Date="2018-01-31 12:56:21" Creator="Bob Smith" Comments="" ID="b2dbb19ea4e49416f1577c24cf38836e">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-01-06 02:47:58" Modified_Date="2018-05-19 21:18:16" Creator="Bob Smith" Comments="" ID="a60c1d8f076f4252cb93bb30cc41f65f">
   <Library_General_Settings>
     <Package_File_Name>National_Instruments_lib_NIPM_Feed_Manager_(Beta)</Package_File_Name>
-    <Library_Version>2.0.0.2</Library_Version>
+    <Library_Version>2.0.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\Source</Library_Source_Folder>
     <Library_Output_Folder>..\Exports</Library_Output_Folder>
@@ -34,11 +34,8 @@
       <Copyright/>
       <Packager>National Instruments</Packager>
       <URL/>
-      <Release_Notes>Added ability for user to create a feed (if one does not exist at the specified folderpath).
-Added ability for user to refresh the view of the available feeds and packages.
-Added ability for user to specify a package destination for a feed that is a folderpath other than the feed folderpath.
-Updated to view package attributes in a table instead of string indicator.
-Updated the NIPM API (Beta) dependency to v2.0.0-2.</Release_Notes>
+      <Release_Notes>Fixed bug - Switching feeds will now reset the "Packages in Feed" listbox to show the topmost item.
+The Initialize case now unregisters any potential leftover temporary feeds.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -112,9 +109,6 @@ Updated the NIPM API (Beta) dependency to v2.0.0-2.</Release_Notes>
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
-      <Exclusions>
-        <Path>_other</Path>
-      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
     <Licensing_and_Activation>
