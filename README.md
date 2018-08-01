@@ -12,6 +12,8 @@ You can use this NIPM Feed Manager GUI to do the following:
 * Publish (add) packages to a feed
 * Unpublish (remove) packages from a feed
 
+![alt text](images/nipm-feed-manager-gui-screenshot.png)
+
 ## How to Install
 Prerequisites:
 * LabVIEW 2014 or later
