@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-01-06 02:47:58" Modified_Date="2018-10-08 16:16:52" Creator="Bob Smith" Comments="" ID="07838bc55c660edbe38c1eec2d77a9dc">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-01-06 02:47:58" Modified_Date="2018-10-09 14:11:17" Creator="Bob Smith" Comments="" ID="6de984c4e62b43dd5238a25b15493e17">
   <Library_General_Settings>
     <Package_File_Name>National_Instruments_lib_NIPM_Feed_Manager_(Beta)</Package_File_Name>
-    <Library_Version>2.1.0.6</Library_Version>
+    <Library_Version>2.2.0.11</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\Source</Library_Source_Folder>
     <Library_Output_Folder>..\Exports</Library_Output_Folder>
@@ -35,12 +35,16 @@
 You must have NI Package Manager already installed on the computer.
 
 You can find content, tutorials, and additional tools for NI package management here:
-https://bit.ly/nipkg</Description>
+https://bit.ly/nipkg
+
+Note: This API is not officially supported by National Instruments.  You can go to the GitHub page to find the source code, report issues, and contribute.:
+https://github.com/allenh-ni/nipm-api-labview</Description>
       <Copyright/>
       <Packager>National Instruments</Packager>
       <URL>https://github.com/allenh-ni/nipm-feed-manager-gui-labview</URL>
-      <Release_Notes>Added a minimal custom run-time toolbar menu.
-Added a Help button on the front panel that links to the help documentation on the GitHub page.</Release_Notes>
+      <Release_Notes>After installing v2.2.0.9 or later, future upgrading/downgrading of the Feed Manager will no longer overwrite the Feeds.ini file.  The Feed Manager now creates the Feeds.ini file programmatically if it does not exist, instead of including a Feeds.ini file as part of the VIPM package.
+Added busy cursor when updating the Package Attributes table.
+Added GitHub link to the VIPM description.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>

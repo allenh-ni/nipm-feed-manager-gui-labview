@@ -26,7 +26,6 @@
 			<Item Name="Specify Feed Settings States.ctl" Type="VI" URL="../_support/Specify Feed Settings States.ctl"/>
 		</Item>
 		<Item Name="Feed Manager.vi" Type="VI" URL="../Feed Manager.vi"/>
-		<Item Name="Feeds.ini" Type="Document" URL="../Feeds.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
