@@ -2,7 +2,7 @@
 NIPM Feed Manager GUI (Beta) for LabVIEW 2014 or later.
 
 ## Overview
-My goal is to provide users with an out-of-the-box Feed Manager that provides a GUI for managing NIPM feeds (e.g. create feed, add package(s) to feed, remove package(s) from feed, etc).  Please feel free to use this API, give feedback, and contribute.
+The NIPM Feed Manager GUI is an out-of-the-box tool for managing NIPM feeds (e.g. create feed, add packages to feed, remove packages from feed, etc).  Please feel free to use this tool, give feedback, and contribute.
 
 You can use this NIPM Feed Manager GUI to do the following:
 * Create new feed(s)
