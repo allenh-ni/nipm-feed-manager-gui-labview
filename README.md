@@ -46,6 +46,9 @@ Launching the NIPM Feed Manager launches a VI. The VI resides in the <labview>\p
 
 If you decide to customize the VI, make sure to save a backup copy of your modifications elsewhere.  If you upgrade/uninstall the NIPM Feed Manager VIPM package in the future, it will remove/overwrite the installed files (e.g. Feed Manager.vi) causing you to lose your modifications.
 
+## Support
+This NIPM Feed Manager GUI is not officially supported by National Instruments. You can use this GitHub repository to find the source code, report issues, and contribute.
+
 ## Source Code
 * **Source** folder - Contains the source code.  The Feed Manager uses the [NIPM API (Beta)](https://github.com/allenh-ni/nipm-api-labview/tree/master/Exports).
 * **Build Spec** folder - Contains the VIPM build spec (.vipb) used to create the .vip file.
