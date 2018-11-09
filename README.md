@@ -39,6 +39,8 @@ Create a feed, as shown below.
 4. (Optional) If you need to remove a package from the feed (e.g. old version of package that has a critical bug), you can select the package and click the **Unpublish Package** button.
 ![alt text](images/feed-manager-gui-publish-feed-workflow.png)
 
+You can find content, tutorials, and additional tools for NI package management at [bit.ly/nipkg](http://bit.ly/nipkg)
+
 ## How to Customize the Feed Manager
 Launching the NIPM Feed Manager launches a VI. The VI resides in the <labview>\project\NIPM Feed Manager directory. You can modify the VI to suit your needs.
 
