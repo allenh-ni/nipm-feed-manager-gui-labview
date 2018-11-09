@@ -36,13 +36,13 @@ Create a feed, as shown below.
 1. Select a feed.
 2. Click the **Publish Package** button, and select the package(s) that you want to publish to the feed. This will 1) copy the package to the specified package destination folder for the feed, and 2) add the package to the feed.
 3. Your package should now show up in the Packages in Feed listbox. You can click your package to view its package attributes (metadata) in the Package Attributes table on the right.
-4. (Optional) If you need to remove a package from the feed (e.g. old version of package that has a critical bug), you can select the package and click the **Unpublish Package** button.
+4. If you need to remove a package from the feed (e.g. old version of package that has a critical bug), then select the package and click the **Unpublish Package** button.
 ![alt text](images/feed-manager-gui-publish-feed-workflow.png)
 
 You can find content, tutorials, and additional tools for NI package management at [bit.ly/nipkg](http://bit.ly/nipkg)
 
 ## How to Customize the Feed Manager
-Launching the NIPM Feed Manager launches a VI. The VI resides in the <labview>\project\NIPM Feed Manager directory. You can modify the VI to suit your needs.
+Launching the NIPM Feed Manager launches a VI. The VI resides in the `<labview>\project\NIPM Feed Manager` directory. You can modify the VI to suit your needs.
 
 If you decide to customize the VI, make sure to save a backup copy of your modifications elsewhere.  If you upgrade/uninstall the NIPM Feed Manager VIPM package in the future, it will remove/overwrite the installed files (e.g. Feed Manager.vi) causing you to lose your modifications.
 
