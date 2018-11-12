@@ -21,17 +21,21 @@
 			<Item Name="Feed Manager State Data.ctl" Type="VI" URL="../_support/Feed Manager State Data.ctl"/>
 			<Item Name="Feed Info.ctl" Type="VI" URL="../_support/Feed Info.ctl"/>
 			<Item Name="UI references.ctl" Type="VI" URL="../_support/UI references.ctl"/>
+			<Item Name="Create File and Subfolders.vi" Type="VI" URL="../_support/Create File and Subfolders.vi"/>
 			<Item Name="Disable and Enable Controls.vi" Type="VI" URL="../_support/Disable and Enable Controls.vi"/>
 			<Item Name="Read Feed INI.vi" Type="VI" URL="../_support/Read Feed INI.vi"/>
+			<Item Name="Remove Package Dialog.vi" Type="VI" URL="../_support/Remove Package Dialog.vi"/>
 			<Item Name="Configure Feed Manager Feeds.vi" Type="VI" URL="../_support/Configure Feed Manager Feeds.vi"/>
 			<Item Name="Specify Feed Settings Dialog.vi" Type="VI" URL="../_support/Specify Feed Settings Dialog.vi"/>
 			<Item Name="Specify Feed Settings States.ctl" Type="VI" URL="../_support/Specify Feed Settings States.ctl"/>
+			<Item Name="Register Temporary Feeds.vi" Type="VI" URL="../_support/Register Temporary Feeds.vi"/>
+			<Item Name="Unregister Feeds Containing Search String.vi" Type="VI" URL="../_support/Unregister Feeds Containing Search String.vi"/>
 		</Item>
 		<Item Name="Feed Manager.vi" Type="VI" URL="../Feed Manager.vi"/>
+		<Item Name="Readme.txt" Type="Document" URL="../Readme.txt"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
-				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>

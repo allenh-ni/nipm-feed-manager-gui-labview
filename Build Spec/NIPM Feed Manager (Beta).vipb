@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-01-06 02:47:58" Modified_Date="2018-11-09 15:52:57" Creator="Bob Smith" Comments="" ID="4095b832d90993888d7da02aa03f2078">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-01-06 02:47:58" Modified_Date="2018-11-12 02:26:45" Creator="Bob Smith" Comments="" ID="df61c6f26c0eb2a304dc95df1b7a3c18">
   <Library_General_Settings>
     <Package_File_Name>National_Instruments_lib_NIPM_Feed_Manager_(Beta)</Package_File_Name>
-    <Library_Version>2.3.0.15</Library_Version>
+    <Library_Version>2.3.0.16</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\Source</Library_Source_Folder>
     <Library_Output_Folder>..\Exports</Library_Output_Folder>
@@ -47,7 +47,9 @@ https://github.com/allenh-ni/nipm-feed-manager-gui-labview</Description>
       <URL>https://github.com/allenh-ni/nipm-feed-manager-gui-labview</URL>
       <Release_Notes>Added busy cursor when refreshing feeds.
 Updated the VIPM description.
-Added Help»About in the run-time menu, so users can determine the currently installed version of the NIPM Feed Manager.</Release_Notes>
+Added Help»About in the run-time menu, so users can determine the currently installed version of the NIPM Feed Manager.
+Changed Feeds.ini location to Public Documents\National Instruments\NIPM Feed Manager\Feeds.ini.
+Separated compiled code from VIs.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
