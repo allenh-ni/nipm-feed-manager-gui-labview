@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-01-06 02:47:58" Modified_Date="2018-11-12 02:26:45" Creator="Bob Smith" Comments="" ID="df61c6f26c0eb2a304dc95df1b7a3c18">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-01-06 02:47:58" Modified_Date="2018-12-20 10:52:39" Creator="Bob Smith" Comments="" ID="09e864fb33de9037b1d269e0dc5eccef">
   <Library_General_Settings>
     <Package_File_Name>National_Instruments_lib_NIPM_Feed_Manager_(Beta)</Package_File_Name>
-    <Library_Version>2.3.0.16</Library_Version>
+    <Library_Version>2.3.0.17</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\Source</Library_Source_Folder>
     <Library_Output_Folder>..\Exports</Library_Output_Folder>
