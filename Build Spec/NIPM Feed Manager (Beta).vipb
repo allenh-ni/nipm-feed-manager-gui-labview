@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-01-06 02:47:58" Modified_Date="2018-10-09 14:11:17" Creator="Bob Smith" Comments="" ID="6de984c4e62b43dd5238a25b15493e17">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-01-06 02:47:58" Modified_Date="2018-12-20 10:52:39" Creator="Bob Smith" Comments="" ID="09e864fb33de9037b1d269e0dc5eccef">
   <Library_General_Settings>
     <Package_File_Name>National_Instruments_lib_NIPM_Feed_Manager_(Beta)</Package_File_Name>
-    <Library_Version>2.2.0.11</Library_Version>
+    <Library_Version>2.3.0.17</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\Source</Library_Source_Folder>
     <Library_Output_Folder>..\Exports</Library_Output_Folder>
@@ -34,17 +34,22 @@
 
 You must have NI Package Manager already installed on the computer.
 
-You can find content, tutorials, and additional tools for NI package management here:
+You can find instructions on how to use the NIPM Feed Manager here:
+https://github.com/allenh-ni/nipm-feed-manager-gui-labview/blob/master/README.md
+
+You can find additional content, tutorials, and additional tools for NI package management here:
 https://bit.ly/nipkg
 
-Note: This API is not officially supported by National Instruments.  You can go to the GitHub page to find the source code, report issues, and contribute.:
-https://github.com/allenh-ni/nipm-api-labview</Description>
+Note: This is not officially supported by National Instruments.  You can go to the GitHub page to find the source code, report issues, and contribute:
+https://github.com/allenh-ni/nipm-feed-manager-gui-labview</Description>
       <Copyright/>
       <Packager>National Instruments</Packager>
       <URL>https://github.com/allenh-ni/nipm-feed-manager-gui-labview</URL>
-      <Release_Notes>After installing v2.2.0.9 or later, future upgrading/downgrading of the Feed Manager will no longer overwrite the Feeds.ini file.  The Feed Manager now creates the Feeds.ini file programmatically if it does not exist, instead of including a Feeds.ini file as part of the VIPM package.
-Added busy cursor when updating the Package Attributes table.
-Added GitHub link to the VIPM description.</Release_Notes>
+      <Release_Notes>Added busy cursor when refreshing feeds.
+Updated the VIPM description.
+Added Help»About in the run-time menu, so users can determine the currently installed version of the NIPM Feed Manager.
+Changed Feeds.ini location to Public Documents\National Instruments\NIPM Feed Manager\Feeds.ini.
+Separated compiled code from VIs.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -119,7 +124,7 @@ Added GitHub link to the VIPM description.</Release_Notes>
         <Namespace/>
       </Namespace_Overrides>
     </Source_Files>
-    <License_Agreement_Filepath/>
+    <License_Agreement_Filepath>..\LICENSE</License_Agreement_Filepath>
     <Licensing_and_Activation>
       <License_LF_file_path/>
       <Licensed_library_file_path/>
@@ -177,7 +182,9 @@ Added GitHub link to the VIPM description.</Release_Notes>
     </LabVIEW>
     <VI_Docs>
       <Edit_VI_Description>true</Edit_VI_Description>
-      <Text_to_Add>{product_name} {version_number}
+      <Text_to_Add>
+
+{product_name} {version_number}
 {copyright}</Text_to_Add>
     </VI_Docs>
     <System_Destinations/>
