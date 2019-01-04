@@ -24,8 +24,10 @@ Prerequisites:
 * Operating System: Refer to the OS requirements for NI Package Manager
 
 Installation instructions
-1. Click on the [Exports](https://github.com/allenh-ni/nipm-feed-manager-gui-labview/tree/master/Exports) folder, and download the most recent .vip file (VIPM package).
-2. Double-click the .vip file.  This will launch VI Package Manager to install the NIPM Feed Manager to LabVIEW 2014 or later.
+1. From LabVIEW, launch **Tools»VI Package Manager**, search for "NIPM Feed Manager", and install it.
+![alt text](images/nipm-feed-manager-on-vipm.png)
+
+Note: If necessary, you can find historical versions in the [Exports](https://github.com/allenh-ni/nipm-feed-manager-gui-labview/tree/master/Exports) folder.
 
 ## How to Use
 ### Create (or add existing) feed
